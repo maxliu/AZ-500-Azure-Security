@@ -185,8 +185,7 @@
             "createOption": "FromImage",
             "diskSizeGB": 127,
             "managedDisk": {
-              "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_Srv_Jump_name'), '_OsDisk_1_3d65499f1f76463ab31b970d6a05091f'))]",
-              "storageAccountType": "Premium_LRS"
+               "storageAccountType": "Premium_LRS"
             },
             "name": "[concat(parameters('virtualMachines_Srv_Jump_name'), '_OsDisk_1_3d65499f1f76463ab31b970d6a05091f')]",
             "osType": "Windows"
@@ -237,7 +236,6 @@
             "createOption": "FromImage",
             "diskSizeGB": 127,
             "managedDisk": {
-              "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_Srv_Work_name'), '_OsDisk_1_702785710c46462e82ccac7b5382f7c4'))]",
               "storageAccountType": "Premium_LRS"
             },
             "name": "[concat(parameters('virtualMachines_Srv_Work_name'), '_OsDisk_1_702785710c46462e82ccac7b5382f7c4')]",
