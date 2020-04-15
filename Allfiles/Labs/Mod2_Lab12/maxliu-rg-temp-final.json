@@ -163,9 +163,9 @@
         },
         "osProfile": {
           "adminUsername": "localadmin",
+          "adminPassword" : "Pa55w.rd1234",
           "allowExtensionOperations": true,
           "computerName": "[parameters('virtualMachines_Srv_Jump_name')]",
-          "requireGuestProvisionSignal": true,
           "secrets": [],
           "windowsConfiguration": {
             "enableAutomaticUpdates": true,
@@ -214,9 +214,9 @@
         },
         "osProfile": {
           "adminUsername": "localadmin",
+          "adminPassword" : "Pa55w.rd1234",
           "allowExtensionOperations": true,
           "computerName": "[parameters('virtualMachines_Srv_Work_name')]",
-          "requireGuestProvisionSignal": true,
           "secrets": [],
           "windowsConfiguration": {
             "enableAutomaticUpdates": true,
